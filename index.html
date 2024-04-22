@@ -17,7 +17,7 @@
 <li><a href="#">About</a></li>
 <li><a href="#">Contact</a></li>
 <li>
-<label class="switch">
+<label for="toggle">Dark Mode Toggle</label>
 <input type="checkbox" id="toggle">
 <span class="slider round"></span>
 </label>
@@ -32,14 +32,14 @@
 <section id="products">
 
 <div class="product">
-<img src="product1.jpg">
+<img src="product1.jpg" alt="Picture of product 1">
 <h2>Product 1</h2>
 <p>$19.99</p>
 <button>Add to Cart</button>
 </div>
 
 <div class="product">
-<img src="product2.jpg">
+<img src="product2.jpg" alt="Picture of product 2">
 <h2>Product 2</h2>
 <p>$29.99</p>
 <button>Add to Cart</button>
@@ -47,7 +47,8 @@
 
 </section>
 
-<input type="text" placeholder="Search..">
+<label for="search">Search Products:</label>
+<input type="text" id="search" placeholder="Search..">
 
 </main>
 
@@ -56,9 +57,9 @@
 <p>Copyright 2023</p>
 
 <ul>
-<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+<a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
 </ul>
 
 </footer>
